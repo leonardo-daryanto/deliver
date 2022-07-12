@@ -8,4 +8,13 @@ namespace arrays {
     export function deliver(firstArray: any, secondArray: any, getValueFromSecondArray: number): void {
         firstArray.unshift(secondArray[getValueFromSecondArray])
     }
+    /**
+     *  make a block deliver without index
+     */
+    //% block
+    export function deliverWithLength(firstArray: any, secondArray: any): void {
+        firstArray.unshift(secondArray.length)
+        
+        
+    }
 }

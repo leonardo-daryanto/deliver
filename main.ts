@@ -1,5 +1,5 @@
 
-namespace array {
+namespace arrays {
     /**
      *  Make a block do deliver an array e.g. food array delivered to list array
      */
